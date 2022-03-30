@@ -34,7 +34,7 @@ module.exports = {
       },
       backgroundImage: {
         'teambg': "url('/teambg.svg')",
-        'carouselbg': "url('/carouselbg.svg')"
+        'carouselbg': "url('/carouselbg.svg')",
       }
     },
   },

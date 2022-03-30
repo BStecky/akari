@@ -45,7 +45,7 @@ const Sidebar = ({toggle, menuOpen }) => {
                     <li className='my-4'><AnchorLink onClick={() => toggle()} href="#about" className="transition-all hover:text-yellow-200">ABOUT</AnchorLink></li>
                     <li className='my-4'><AnchorLink onClick={() => toggle()} href="#team" className="transition-all hover:text-yellow-200">TEAM</AnchorLink></li>
                     <li className='my-4'><AnchorLink onClick={() => toggle()} href="#roadmap" className="transition-all hover:text-yellow-200">ROADMAP</AnchorLink></li>
-                    <li className='my-4'><AnchorLink onClick={() => toggle()} href="#Showcase" className="transition-all hover:text-yellow-200">SHOWCASE</AnchorLink></li>
+                    <li className='my-4'><Link onClick={() => toggle()} href="/mint" className="transition-all hover:text-yellow-200">MINT</Link></li>
                     <li><hr className='my-4'/></li>
                     <li>
                         <div className='flex justify-center text-3xl'>
