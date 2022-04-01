@@ -17,11 +17,7 @@ const About = () => {
                     <br/>
                     <h4 className='mb-1 text-xl'>The Inspiration</h4>
                     <p>
-                    Azuki is a big inspiration for us, we believe in everything that they are doing on Ethereum. 
-                    We wanted to make our mark on web3 as well, so we decided to create Akari on Solana. 
-                    Half of the Akari team speaks Japanese, so we also wanted to take the chance to
-                    stay true to the culture while still stylizing it in our own unique way. 
-                    This is something we believe {"hasn't"} been done properly yet on Solana. We will be the first.
+                    Our team has been involved with the Solana NFT space since the beginning. We've watched many projects come and go, but felt many of them lacked a sense of identity. Some of our team members are of Japanese origin, and some heavily involved with Japanese culture. So we used Akari as an opportunity to represent the culture with its own twist.
                     </p>
                     <br/>
                     <h4 className='mb-1 text-xl'>Join The Community</h4>
