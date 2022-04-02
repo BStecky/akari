@@ -17,7 +17,7 @@ const About = () => {
                     <br/>
                     <h4 className='mb-1 text-xl'>The Inspiration</h4>
                     <p>
-                    Our team has been involved with the Solana NFT space since the beginning. We've watched many projects come and go, but felt many of them lacked a sense of identity. Some of our team members are of Japanese origin, and some heavily involved with Japanese culture. So we used Akari as an opportunity to represent the culture with its own twist.
+                    Our team has been involved with the Solana NFT space since the beginning. We&apos;ve watched many projects come and go, but felt many of them lacked a sense of identity. Some of our team members are of Japanese origin, and some heavily involved with Japanese culture. So we used Akari as an opportunity to represent the culture with its own twist.
                     </p>
                     <br/>
                     <h4 className='mb-1 text-xl'>Join The Community</h4>
