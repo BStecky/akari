@@ -41,11 +41,9 @@ const Sidebar = ({toggle, menuOpen }) => {
                 </Link>
                 <hr className='my-4'/>
                 <ul className=''>
-                    <li className='my-4'><AnchorLink onClick={() => toggle()} href="#home" className="transition-all hover:text-yellow-200">HOME</AnchorLink></li>
-                    <li className='my-4'><AnchorLink onClick={() => toggle()} href="#about" className="transition-all hover:text-yellow-200">ABOUT</AnchorLink></li>
-                    <li className='my-4'><AnchorLink onClick={() => toggle()} href="#team" className="transition-all hover:text-yellow-200">TEAM</AnchorLink></li>
-                    <li className='my-4'><AnchorLink onClick={() => toggle()} href="#roadmap" className="transition-all hover:text-yellow-200">ROADMAP</AnchorLink></li>
-                    <li className='my-4'><AnchorLink onClick={() => toggle()} href="#Showcase" className="transition-all hover:text-yellow-200">SHOWCASE</AnchorLink></li>
+                <li><Link href="/" className="my-4 transition-all hover:text-yellow-200" passHref>HOME</Link></li>
+                <li><Link href="https://light-city.io" className="my-4 transition-all hover:text-yellow-200">STAKING</Link></li>
+                <li><Link href="https://lp.light-city.io" className="my-4 transition-all hover:text-sitePurple hover:bg-white px-4 py-2 border-[1px] rounded border-white" passHref>GLOW LP</Link></li>
                     <li><hr className='my-4'/></li>
                     <li>
                         <div className='flex justify-center text-3xl'>
