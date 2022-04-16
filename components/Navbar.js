@@ -18,7 +18,7 @@ const Navbar = () => {
                 <li><Link href="/" className="transition-all hover:text-yellow-200" passHref>HOME</Link></li>
                 <li><Link href="https://light-city.io" className="transition-all hover:text-yellow-200">STAKING</Link></li>
                 <li><Link href="https://lp.light-city.io" className="transition-all hover:text-sitePurple hover:bg-white px-4 py-2 border-[1px] rounded border-white" passHref>GLOW LP</Link></li>
-                {/* <li><Link href="https://shrine.light-city.io/" className="transition-all hover:text-yellow-200" >THE SHRINE</Link></li> */}
+                <li><Link href="https://shrine.light-city.io/" className="transition-all hover:text-yellow-200" >THE SHRINE</Link></li>
             </ul>
             <FaBars onClick={() => setMenuOpen(true)} className='text-2xl md:hidden mt-[5px] cursor-pointer hover:text-yellow-200'/>
             <Sidebar toggle={toggle} setMenuOpen={setMenuOpen} menuOpen={menuOpen}/>
