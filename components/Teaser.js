@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import teaser from '../assets/teasertwo.png'
+import teaser from '../assets/teasertwo.PNG'
 
 const Teaser = () => {
     return (
