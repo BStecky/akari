@@ -8,7 +8,7 @@ const fadeIn = {
 		opacity: 1,
 		transition: {
 			duration: 1.5,
-			delay: 2
+			delay: .5
 		}
 	},
 	start: {
