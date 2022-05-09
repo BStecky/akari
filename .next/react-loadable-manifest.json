@@ -1,1 +1,8 @@
-{}
+{
+  "../components/Box.js -> @splinetool/react-spline": {
+    "id": "../components/Box.js -> @splinetool/react-spline",
+    "files": [
+      "static/chunks/node_modules_splinetool_react-spline_dist_react-spline_es_js.js"
+    ]
+  }
+}
