@@ -4,7 +4,7 @@ import {useEffect} from 'react'
 
 const springIn = {
   end: { 
-      scale: 1,
+      opacity: 1,
       transition: {
           duration: 2,
           delay: 0.1,
@@ -13,7 +13,7 @@ const springIn = {
       }
   },
   start: {
-      scale: 3
+      opacity: 3
   }
 }
 
