@@ -17,7 +17,7 @@ const fadeIn = {
 }
 
 
-const CountdownCard = () => {
+const CountdownCard = ({setComplete}) => {
 	const [hidden, setHidden] = useState(false)
 	const controls = useAnimation()
 
@@ -41,7 +41,9 @@ const CountdownCard = () => {
 					initial='start'
 					animate={controls}>
 					<NoSsr>
-						<Countdown date={1652666400000} />
+						<Countdown date={1652666400000}>
+							<button onClick={() => setComplete()} className='bg-yellow-300 text-sitePurple text-xl sm:text-2xl px-4 py-2 rounded-sm hover:scale-105 transition-all duration-50'>What{"'"}s Inside?</button>
+						</Countdown>
 					</NoSsr>
 				</m.div>
 			)}
@@ -51,5 +53,7 @@ const CountdownCard = () => {
 		</section>
 	)
 }
+
+//1652666400000
 
 export default CountdownCard;
