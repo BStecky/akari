@@ -60,7 +60,7 @@ const WHATISTHIS = () => {
                     <Image src="/logo.png" alt="Akari Logo" width={500} height={500}/>
                 </m.div>
             ) : (
-                <m.div className="border border-yellow-300 aspect-square relative"
+                <m.div className="border border-yellow-300 aspect-square relative max-h-[500px]"
                 variants={fadeIn}
                 initial='start'
                 animate={controls}
