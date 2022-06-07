@@ -50,7 +50,12 @@ const WHATISTHIS = () => {
                 initial='start'
                 animate={controls}
                 onClick={
-                    () => setRevealed(true)
+                    () => {
+                        controls.start('end')
+                        setTimeout(() => {
+                            setRevealed(true)
+                        }, 1000)
+                    }
                 }>
                     <Image src="/logo.png" alt="Akari Logo" width={500} height={500}/>
                 </m.div>
