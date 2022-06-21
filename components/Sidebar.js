@@ -2,7 +2,9 @@ import { motion, AnimatePresence } from 'framer-motion'
 import { AiOutlineClose } from 'react-icons/ai'
 import { FaDiscord, FaTwitter } from 'react-icons/fa'
 import Link from 'next/link'
+import React from 'react'
 
+// eslint-disable-next-line react/prop-types
 const Sidebar = ({toggle, menuOpen }) => {
     return (
         <AnimatePresence>
@@ -36,15 +38,16 @@ const Sidebar = ({toggle, menuOpen }) => {
             >
                 <AiOutlineClose onClick={() => toggle()} className='absolute top-12 right-12 text-2xl'/>
                 <Link href="/" passHref>
-                    <h2 className='text-4xl'>Akari</h2>
+                    <h2 className='text-4xl font-[acier-bat-outline]'>Akari</h2>
                 </Link>
                 <hr className='my-4'/>
                 <ul className='gap-2 flex flex-col'>
-                <li><Link href="/" className="my-4 transition-all hover:text-yellow-200" passHref>HOME</Link></li>
+                <li><Link href="https://akarilabs.io/" className="my-4 transition-all hover:text-yellow-200" passHref>HOME</Link></li>
                 <li><Link href="https://light-city.io" className="my-4 transition-all hover:text-yellow-200">STAKING</Link></li>
                 <li><Link href="https://lp.light-city.io" className="my-4 transition-all hover:text-sitePurple hover:bg-white px-4 py-2 border-[1px] rounded border-white" passHref>GLOW LP</Link></li>
                 <li><Link href="https://shrine.light-city.io/" className="my-4 transition-all hover:text-yellow-200" >THE SHRINE</Link></li>
                 <li><Link href="https://raffle.light-city.io/" className="my-4 transition-all hover:text-yellow-200" >RAFFLE DISTRICT</Link></li>
+                <li><Link href="https://shop.akarilabs.io/" className="my-4 transition-all hover:text-yellow-200" >GLOW OUTLET</Link></li>
                     <li><hr className='my-4'/></li>
                     <li>
                         <div className='flex justify-center text-3xl'>
