@@ -1,13 +1,5 @@
 {
-  "/FR3K194S7DJ3HN82VOUZ5": "pages/FR3K194S7DJ3HN82VOUZ5.html",
-  "/G312313F": "pages/G312313F.html",
-  "/GLOWPROTOCOL": "pages/GLOWPROTOCOL.html",
-  "/H140027": "pages/H140027.html",
-  "/WHATISTHIS": "pages/WHATISTHIS.html",
   "/_app": "pages/_app.js",
   "/_document": "pages/_document.js",
-  "/": "pages/index.html",
-  "/secret": "pages/secret.html",
-  "/_error": "pages/_error.js",
-  "/404": "pages/404.html"
+  "/_error": "pages/_error.js"
 }
