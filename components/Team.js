@@ -14,10 +14,7 @@ const Team = () => {
                             <h3 className='text-4xl md:text-5xl lg:text-6xl w-full text-right'><span className='text-yellow-300'>Our </span>Team</h3>
                     </div>
                 </div>
-                <div className='grid gap-14 grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 w-full pb-6 py-20'>   
-                        <TeamCard name='Octillion' image={octillion} title='Founder'>
-                            Octillion is a Founder of Akari, keeping the continued development on track for success and our community thriving.
-                        </TeamCard>
+                <div className='grid gap-14 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 w-full pb-6 py-20'>   
                         <TeamCard name='Aime' image={aime} title='Founder / Developer'>
                             Aime is a Founder and Developer, working hard to ensure the continued growth of 
                             our community.
